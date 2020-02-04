@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Alata|Exo+2&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
         integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -12,57 +13,44 @@
 </head>
 
 <body>
-    <header>
-        <hgroup>
-            <h1>Aucoeur Christine Ngo</h1>
-            <h3>Full Stack Developer</h3>
-            <div>
-                <div>
-                    <div>
-                        <div>
-                            <i class="fas fa-phone"></i> 626.498.5783 | 
-                            <i class="far fa-envelope"></i>
-                            <a href="mailto://aucoeurngo@gmail.com">
-                                aucoeurngo@gmail.com
-                            </a> | 
-                            <i class="fab fa-linkedin-in"></i>
-                            <a href="http://www.linkedin.com/in/aucoeurngo">http://www.linkedin.com/in/aucoeurngo</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </hgroup>
-    </header>
-    <hr>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            Text text text text
+    <div class="wrapper">
+        <div class="column side">
+            <header>
+                <hgroup>
+                    <h1>Aucoeur Christine Ngo</h1>
 
-            <figure>
-                <img src="media/rockfact.gif" alt="And that's a rock fact">
-            </figure>
-
-        </section>
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML/CSS</li>
-                <li>Python</li>
-                <li>Django</li>
-            </ul>
-        </section>
-
-    </main>
-    <!-- footer -->
-    <footer>
-
-
-        <!-- Copyright -->
-        <div>© 2019 Copyright STINE
+                    <h3>Full Stack Developer</h3>
+                </hgroup>
+                <hr>
+                <img src="media/rockfact.gif" alt="">
+                <section>
+                    <h2>About Me</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dui tortor, mattis vel turpis a,
+                        luctus blandit tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                        inceptos himenaeos. Aenean fermentum sodales hendrerit. Nulla nec velit euismod, interdum massa
+                        sed, lobortis erat. </p>
+                </section>
         </div>
+        <div class="column main">
+            <div class="row nav">
+                <section> <i class="fas fa-phone"></i>: 626.498.5783 |
+                    <i class="far fa-envelope"></i>
+                    <a href="mailto://aucoeurngo@gmail.com">:
+                        aucoeurngo@gmail.com
+                    </a>
+                    <p> <i class="fab fa-linkedin-in"></i>:
+                        <a href="http://www.linkedin.com/in/aucoeurngo">http://www.linkedin.com/in/aucoeurngo</a></p>
+                    <p><i class="fab fa-github"></i>: <a
+                            href="https://github.com/aucoeur">https://github.com/aucoeur</a></p>
+                </section>
+            </div>
+            <div class="row content">Content</div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="row footer">© 2019 Copyright STINE</div>
+    </div>
 
-    </footer>
 </body>
 
 </html>
